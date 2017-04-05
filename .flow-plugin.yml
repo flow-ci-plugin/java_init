@@ -1,0 +1,21 @@
+
+name: java_init
+version: 0.0.1
+language: java
+description: java environment initialize
+public: true
+tags:
+  - java
+  - init
+inputs:
+  - name: FLOW_VERSION
+    editable: true
+outputs:
+  - name: FLOW_JAVA_VERSION
+  - name: FLOW_JDK_VERSION
+  - name: FLOW_MAVEN_VERSION
+script_path: ./run.sh  
+  
+template: |  
+  
+  
