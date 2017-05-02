@@ -8,8 +8,7 @@ tags:
   - java
   - init
 inputs:
-  - name: FLOW_VERSION
-    editable: true
+
 outputs:
   - name: FLOW_JAVA_VERSION
   - name: FLOW_JDK_VERSION
